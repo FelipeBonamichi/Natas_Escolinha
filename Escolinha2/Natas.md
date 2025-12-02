@@ -66,6 +66,7 @@ Há também o link “view sourcecode”, que é onde está a pista principal, i
 ## Natas 9
 No [**natas 9**](http://natas9.natas.labs.overthewire.org), você encontra um formulário que faz buscas usando o comando grep.
 Olhando o “view sourcecode”, vemos que o input do usuário é colocado diretamente no comando "exec("grep -i $keyword dictionary.txt");" isso permite fazer injeção de comandos, como "; cat /etc/natas_webpass/natas10" que ja vai ser direcionado para a senha
+
 ![alt text](image-8.png)
 
 ## Natas 10
@@ -120,3 +121,4 @@ doda isso do sequir o passo a passo nas imagens e chegara no resultado
 senha:hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
 
 <br>
+
